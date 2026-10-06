@@ -11,4 +11,4 @@ class Solution:
             else:
                 stack.append(ch)
 
-        return not stack
+        return len(stack)==0
